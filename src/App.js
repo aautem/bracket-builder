@@ -2,7 +2,7 @@ import Bracket from './components/Bracket'
 
 function App() {
   return (
-    <div>
+    <div style={{ margin: 50 }}>
       <Bracket
         topGameId="1"
         bottomGameId="2"
