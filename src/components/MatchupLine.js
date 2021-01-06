@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 
+// TODO: Move seed out?
 const MatchupLine = ({ bottom, seed, teamName }) => {
   return (
     <div style={{

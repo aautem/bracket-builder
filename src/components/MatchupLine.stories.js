@@ -17,8 +17,8 @@ export const Bottom = () => (
 )
 
 const storyDefinition = {
-  title: 'MatchupLine',
   component: MatchupLine,
+  title: 'MatchupLine',
 };
 
 export default storyDefinition

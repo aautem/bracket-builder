@@ -1,11 +1,16 @@
 import React from 'react'
 import Bracket from './Bracket'
 
-export const Primary = () => <Bracket />
+export const Primary = () => (
+  <Bracket
+    topGameId="1"
+    bottomGameId="2"
+  />
+)
 
 const storyDefinition = {
-  title: 'Bracket',
   component: Bracket,
+  title: 'Bracket',
 };
 
 export default storyDefinition
