@@ -1,6 +1,6 @@
 import React from 'react'
 
-import BracketLine from './BracketLine'
+import MatchupLine from './MatchupLine'
 
 const matchupStyle = {
   display: 'flex',
@@ -18,9 +18,9 @@ const borderStyle = {
 const Matchup = () => {
   return (
     <div style={matchupStyle}>
-      <BracketLine seed={1} team="Kansas City Chiefs" />
+      <MatchupLine seed={1} team="Kansas City Chiefs" />
       <div style={borderStyle} />
-      <BracketLine seed={6} team="Cleveland Browns" />
+      <MatchupLine seed={6} team="Cleveland Browns" />
     </div>
   )
 }
